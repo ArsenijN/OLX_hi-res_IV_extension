@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "OLX High-Res Image Viewer",
+  "version": "1.0",
+  "description": "Right-click OLX images to open in high resolution.",
+  "permissions": ["contextMenus", "activeTab", "<all_urls>", "scripting"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.olx.ua/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
