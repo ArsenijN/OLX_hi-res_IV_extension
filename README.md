@@ -1,5 +1,10 @@
 # Hi-res Image View For OLX
-Open OLX's images as hi-res ones
+
+**Open OLX's images as hi-res ones**
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
+
+Extension avaliable only for `Firefox` for now
 
 ---
 
