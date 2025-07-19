@@ -1,0 +1,2 @@
+This Firefox extension is **main** that I'll use and add changes to (because I'm a Firefox user obviously)
+You can help to bring the extension to Chromium-based browsers, or help with adding features, or fix the code, or just use it and do nothing - do what you do best, this is most important
