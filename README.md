@@ -19,14 +19,16 @@ So, opening images in new tab and set the image resolution to 10000 by 7000 reso
 # Possible issues?
 Idk if OLX Group would allow that thing to exists because... it can create higher bandwidth usage, **but it is on demand**, not always, so... It's more like user experience improvement than problems for OLX because of higher server loads, bandwidth and etc. etc. Force page reload with cleared cache will be worse than loading image in original quality I think
 
-If for some reason, OLX group will like to talk to me - I leaved my mail on [extention page](https://addons.mozilla.org/uk/firefox/addon/olx_hi-res_iv/) in the "email support"
+If for some reason, OLX group will like to talk to me - I leaved my mail on [extension page](https://addons.mozilla.org/uk/firefox/addon/olx_hi-res_iv/) in the "email support"
 
-# Extention support
-Currently I can't provide the info that "this extention will work on **any** version of Firefox", or "Will work on every OLX page" - extention testings is in progress
+# Extension support
+Currently I can't provide the info that *`this extension will work on **any** version of Firefox`*, or *`will work on every OLX page`* - extension testings is in progress
 
-`Would I like to install VM and manually test extention on every version of Firefox?` Maybe...? It'll be time consuming, but it will worth to do that surely. (If someone are unemployed or have a lot of free time and want to spend time to something that will help to small amount of people - please, test extention on various Firefox versions and even maybe systems, it will reduce amount of work, also, check DEVLOG.MD for infos)
+***`Would I like to install VM and manually test extension on every version of Firefox?`***  
+Maybe...? It'll be time consuming, but it will worth to do that surely. (If someone are unemployed or have a lot of free time and want to spend time to something that will help to small amount of people - please, test extension on various Firefox versions and even maybe systems, it will reduce amount of work, also, check DEVLOG.MD for infos)
 
-`Would I add this extention to Chrome Extention Store?` Later - yes, now - no. Extention lacks some "smoothing" in functions, like  I think it was possible to make on Manifest V3, but I wasn't done it then and made for Manifest V2, and Chrome doesn't support it now because of... you know why - Youtube. So, currently Firefox is my support for this mini project
+***`Would I add this extension to Chrome Web Store?`***  
+Later - yes, now - no. Extension lacks some "smoothing" in functions, like  I think it was possible to make on Manifest V3, but I wasn't done it then and made for Manifest V2, and Chrome doesn't support it now because of... you know why - Youtube. So, currently Firefox is my support for this mini project
 
 
 # Support me
@@ -55,4 +57,5 @@ TIN/EDRPOU: 3996904115
 Purpose of payment: Jar account replenishment
 ```
 
-Idk if monobank and US/EU banks will allow to use those variants of credentials, anyway - I find my IBAN but idk much about how to use the Western Union and... Who will do WU anyway?
+Idk if US/EU banks will allow to use those variants of credentials, anyway - I find my IBAN but still idk much about how to use the Western Union and... Who will do WU anyway?
+(warning about possible high fees for now for any variant)
