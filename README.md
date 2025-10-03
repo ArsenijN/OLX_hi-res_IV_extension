@@ -22,8 +22,29 @@ Idk if OLX Group would allow that thing to exists because... it can create highe
 If for some reason OLX group would like to talk to me - I leaved my mail on [extention page](https://addons.mozilla.org/uk/firefox/addon/olx_hi-res_iv/)
 
 # Support
-Currently I don't have international way to support me - because I currently can't do some things right... So
+Currently I don't have international way to support me that will surely work because I currently can't do some things right, so...
 
-You can support me via [monobank](https://send.monobank.ua/jar/9PHgXye4Mc) or by credentials: 4441 1111 2973 0218
+You can support me via [monobank jar page](https://send.monobank.ua/jar/9PHgXye4Mc) or by jar credentials (literally jar that acts like card but for savings): 4441 1111 2973 0218
 
-Idk if monobank and US/EU banks will allow to use this variant of credentials, anyway - I don't have IBAN and idk much about how to use the Western Union and... Who will do that anyway?
+or my full credentials: 
+
+```
+Реквізити для поповнення банки «На кавусю авторові»
+
+Отримувач: Ночевний Арсеній Миколайович
+IBAN: UA933220010000026202353751326
+ІПН/ЄДРПОУ: 3996904115
+Призначення платежу: Поповнення рахунку банки
+```
+
+(translation:)
+```
+Details for jar replenishment "On the author's coffee"
+
+Recipient: Nochevnyi Arsenii
+IBAN: UA933220010000026202353751326
+TIN/EDRPOU: 3996904115
+Purpose of payment: Jar account replenishment
+```
+
+Idk if monobank and US/EU banks will allow to use those variants of credentials, anyway - I find my IBAN but idk much about how to use the Western Union and... Who will do WU anyway?
