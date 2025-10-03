@@ -1,13 +1,21 @@
-browser.contextMenus.create({
-  id: "olx-highres",
-  title: "Detailed view (high-res)",
-  contexts: ["image"]
+// Manifest V3 background service worker
+chrome.runtime.onInstalled.addListener(() => {
+  chrome.contextMenus.create({
+    id: "olx-highres",
+    title: "Open in high-res viewer",
+    contexts: ["image"]
+  });
 });
 
-browser.contextMenus.onClicked.addListener((info, tab) => {
+chrome.contextMenus.onClicked.addListener((info, tab) => {
   if (info.menuItemId === "olx-highres") {
     const url = info.srcUrl;
-    const newUrl = url.replace(/;s=\d+x\d+/, ";s=10000x7000");
-    browser.tabs.update(tab.id, { url: newUrl });
+    const hiResUrl = url.replace(/;s=\d+x\d+/, ";s=10000x7000");
+    
+    // Send message to content script to open viewer
+    chrome.tabs.sendMessage(tab.id, {
+      action: "openViewer",
+      imageUrl: hiResUrl
+    });
   }
 });

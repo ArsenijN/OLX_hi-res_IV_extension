@@ -1,16 +1,24 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "OLX High-Res Image Viewer",
-  "version": "1.0",
-  "description": "Right-click OLX images to open in high resolution.",
-  "permissions": ["contextMenus", "activeTab", "<all_urls>", "scripting"],
+  "version": "1.1",
+  "description": "View OLX images in high resolution with a built-in photo viewer.",
+  "permissions": ["contextMenus", "activeTab"],
+  "host_permissions": ["*://*.olx.ua/*"],
   "background": {
     "scripts": ["background.js"]
   },
   "content_scripts": [
     {
       "matches": ["*://*.olx.ua/*"],
-      "js": ["content.js"]
+      "js": ["content.js"],
+      "css": ["viewer.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["viewer.css"],
+      "matches": ["*://*.olx.ua/*"]
     }
   ]
 }
